@@ -99,7 +99,7 @@ const Header = () => {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
             <div className="ms-md-4 ms-2">
-              <NavLink className="primaryBtn d-none d-sm-inline-block">
+              <NavLink className="primaryBtn d-none d-sm-inline-block" to='/create-itinerary'>
                 Book Now
               </NavLink>
               <li className="d-inline-block d-lg-none ms-3 toggle_btn">

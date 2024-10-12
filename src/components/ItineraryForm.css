@@ -1,0 +1,58 @@
+/* Center the form on the page */
+.itinerary-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the form */
+  .itinerary-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Input fields and buttons */
+  .itinerary-form input, 
+  .itinerary-form select, 
+  .itinerary-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .itinerary-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .itinerary-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Headings */
+  .itinerary-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Adjust spacing */
+  .itinerary-form p {
+    margin-top: 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
